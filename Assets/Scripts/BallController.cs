@@ -12,6 +12,6 @@ public class BallController : MonoBehaviour
 
     void Start()
     {
-        _ballRb.AddForce(new Vector2(5,0), ForceMode2D.Impulse);
+        _ballRb.AddForce(new Vector2(10,0), ForceMode2D.Impulse);
     }
 }
