@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class BallController : MonoBehaviour
@@ -12,6 +11,14 @@ public class BallController : MonoBehaviour
 
     void Start()
     {
-        _ballRb.AddForce(new Vector2(10,0), ForceMode2D.Impulse);
+        //_ballRb.AddForce(new Vector2(7,0), ForceMode2D.Impulse);
+        _ballRb.linearVelocityX = 7;
+    }
+
+    public void RestartGame(int dir)
+    {
+        _ballRb.transform.position = Vector3.zero;
+        _ballRb.linearVelocityX = 7 * dir;
+        //_ballRb.AddForce(new Vector2(7*dir,0), ForceMode2D.Impulse);
     }
 }
