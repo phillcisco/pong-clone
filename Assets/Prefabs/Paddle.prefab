@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5825249654501983802}
   - component: {fileID: 5784834355841449464}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 6215114801818633382}
   - component: {fileID: 2550719554514387536}
   - component: {fileID: 4057447768108372010}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Paddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 6200000, guid: 7114b73255eb30c4d996c91746bc3711, type: 2}
+  m_Material: {fileID: 6200000, guid: 1b21152ee44a83041b247741bf160566, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -175,7 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8311194359720747219}
   - component: {fileID: 987057227008616343}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 7114b73255eb30c4d996c91746bc3711, type: 2}
+  m_Material: {fileID: 6200000, guid: 1b21152ee44a83041b247741bf160566, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

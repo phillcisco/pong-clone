@@ -9,6 +9,7 @@ public class PaddleController : MonoBehaviour
     float _xPaddleValue;
     Camera _mainCamera;
     Vector2 _paddlePos;
+    
     void Awake()
     {
         _paddleRb = GetComponent<Rigidbody2D>();
